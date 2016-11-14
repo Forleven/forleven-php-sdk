@@ -9,12 +9,12 @@ use Forleven\Core\Pagination\Pagination as Pagination;
 
 class Client
 {
-	/**
-	 * @var \GuzzleHttp\Client
-	 */
-	protected $client = null;
+    /**
+     * @var \GuzzleHttp\Client
+     */
+    protected $client = null;
 
-	function __construct()
+    function __construct()
     {
         $this->client = new Guzzle();
     }
@@ -31,7 +31,7 @@ class Client
         return $apiUrl;
     }
 
-	private function request($method, $endpoint, array $params = [])
+    private function request($method, $endpoint, array $params = [])
     {
         try 
         {
