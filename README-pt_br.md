@@ -9,4 +9,5 @@ Este pacote consiste em um SDK em PHP para a API da Forleven.com.
 ## Sobre
 
 E-Mail: suporte@forleven.com
-Telefone: +55 (11) 4636 4760
+
+Telefone: +55 11 4636 4760
