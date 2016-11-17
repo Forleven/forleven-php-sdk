@@ -8,7 +8,6 @@ class Classroom extends HttpClient
 {
 	public $exist = false;
 
-	public $id_institution;
 	public $id_classroom;
 	public $id_course;
 	public $name;
@@ -18,7 +17,7 @@ class Classroom extends HttpClient
 	public $date_begin;
 	public $nomenclature;
 	public $type_serie;
-	public $total_student_on;
+	public $total_student_active;
 	public $total_student;
 	public $date_end_expect;
 	public $date_end;

@@ -19,7 +19,6 @@ class Institution extends HttpClient
 	public $city;
 	public $website;
 	public $type;
-	public $register_date;
 	public $image;
 	public $description;
 	public $print_image;

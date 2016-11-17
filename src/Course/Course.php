@@ -9,7 +9,6 @@ class Course extends HttpClient
 	public $exist = false;
 
 	public $id_course;
-	public $id_institution;
 	public $id_user_create;
 	public $name;
 	public $order;

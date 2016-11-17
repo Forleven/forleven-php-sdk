@@ -12,7 +12,6 @@ class Member extends HttpClient
 	public $number = null;
 
 	public $id_user;
-	public $id_institution;
 	public $id_occupation;
 	public $name;
 	public $lastname;
