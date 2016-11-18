@@ -14,10 +14,10 @@ class Course extends HttpClient
 	public $order;
 	public $type;
 	public $pre_registration;
-	public $serie_total;
-	public $serie_division_total;
-	public $serie_duration;
-	public $name_division;
+	public $school_stage_total;
+	public $school_stage_duration;
+	public $term_total;
+	public $term_name;
 
 	function __construct($id_course = null)
 	{

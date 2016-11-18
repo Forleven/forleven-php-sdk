@@ -13,7 +13,7 @@ class Classroom extends HttpClient
 	public $name;
 	public $number_vacancy;
 	public $room;
-	public $series;
+	public $school_stage;
 	public $date_begin;
 	public $nomenclature;
 	public $type_serie;
