@@ -72,12 +72,12 @@ class OAuth extends HttpClient
 		}
 	}
 
-	public function getAccessToken($code)
+	public function getAccessToken($authorize_code)
 	{
 		$query = array(
-			'code'			=> $code,
-			'client_id'		=> $this->client_id,
-			'client_secret'	=> $this->client_secret,
+			'authorize_code'	=> $authorize_code,
+			'client_id'			=> $this->client_id,
+			'client_secret'		=> $this->client_secret,
 		);
 
 		$endpoint = '/oauth/oauth_token';
